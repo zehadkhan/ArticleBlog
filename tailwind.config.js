@@ -4,11 +4,13 @@ module.exports = {
       "./resources/**/*.blade.php",
       "./resources/**/*.js",
       "./resources/**/*.vue",
+      "./node_modules/flowbite/**/*.js",
   ],
   theme: {
     extend: {},
   },
   plugins: [
+      require('flowbite/plugin'),
       // require('@tailwindcss/forms'),
       // require('@tailwindcss/forms'),
       // require('@tailwindcss/aspect-ratio'),
