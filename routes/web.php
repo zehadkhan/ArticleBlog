@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\fromsubmission;
+use App\Http\Controllers\productsCon;
+use App\Http\Controllers\helloController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +22,17 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login/login');
 });
+
+Route::get('/signup', function () {
+    return view('signup/signup');
+});
+
+Route::get('/welcome',[fromsubmission::class,'signupdata']);
+
+Route::get('/products',[productsCon::class,'product']);
+Route::get('/hello/{name}',[helloController::class,'getTitleName']);
+
+
+
+
+

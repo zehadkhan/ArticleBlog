@@ -4,7 +4,7 @@
     for ($count = 0; $count < 3; $count++) {
 @endphp
 
-    <div class="max-w-sm bg-white border-none border-gray-200 rounded-lg shadow dark:bg-white-800 dark:border-gray-700">
+    <div class="max-w-sm bg-white border-none border-gray-200 rounded-lg shadow dark:bg-white-800 dark:border-gray-700 my-10">
         <a href="#">
             <img class="rounded-t-lg" src="https://unsplash.com/photos/9W2ZunhMzmc/download?ixid=MnwxMjA3fDB8MXxhbGx8MTF8fHx8fHwyfHwxNjc3NjY0ODUy&force=true&w=640" alt="" />
         </a>
